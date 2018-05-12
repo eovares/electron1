@@ -1,17 +1,20 @@
-npm install electron-builder --save-dev
+# App Example
+
+Electron js uses build folder from https://github.com/ward07/example-ng6 to generate the Windows installer
+
+## Install packages
 
 yarn add --dev electron-packager
 
-yarn add electron-builder --dev
+yarn add --dev electron-builder
 
-yarn add --dev electron-winstaller
+# Run
 
-yarn add --dev electron-installer-windows
+npm package-win
 
-yarn add --dev electron-wix-msi 
+npm installer-x64
 
-yarn add --dev electron-squirrel-startup
-
+## References
 https://www.christianengvall.se/electron-packager-tutorial/
 
 https://www.christianengvall.se/electron-windows-installer/
